@@ -18,7 +18,7 @@ float f_standard_deviation = 0.0;
 
 // Public Functions
 
-void noise_analysis_add_sample_to_pool(float newSample)
+void v_noise_analysis_add_sample_to_pool(float newSample)
 {
 	u32_number_of_samples += 1;
 	f_sum_of_samples_value += newSample;

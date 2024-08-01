@@ -17,9 +17,11 @@
 
 // Functions
 
-void noise_analysis_add_sample_to_pool(float newSample);
+void v_noise_analysis_add_sample_to_pool(float newSample);
 
 //-- Gets
-float fNoiseAnalysisGet
+
+float f_noise_analysis_get_variance();
+float f_noise_analysis_get_standard_deviation();
 
 #endif /* INC_NOISEANALYSIS_H_ */
